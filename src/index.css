@@ -24,4 +24,14 @@ body {
   background-color: #F7F7FF;
 }
 
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.active {
+  background-color: #303770;
+
+  color: #F7F7FF;
+}
