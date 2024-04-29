@@ -2,7 +2,7 @@
 FROM node:20.12.2 as build
 
 # Establece el directorio de trabajo dentro del contenedor
-WORKDIR /app
+WORKDIR /
 
 # Copia el archivo package.json y package-lock.json (o yarn.lock si usas Yarn) al directorio de trabajo
 COPY package*.json ./
